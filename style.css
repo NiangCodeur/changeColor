@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#92f9f3, #dd50f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+.color {
+  height: 255px;
+  background: red;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+input {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ChangeColor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="color"></div>
+      <div class="content">
+        <label>Choisissez la couleur</label>
+        <input type="color" />
+      </div>
+    </div>
+    <script>
+      const color = document.querySelector(".color");
+      const Input = document.querySelector("input");
+
+      Input.addEventListener("input", () => {
+        color.style.background = Input.value;
+      });
+    </script>
+  </body>
+</html>
